@@ -1,0 +1,176 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-left: 42px;
+    margin-top: 47px;
+
+}
+
+.header {
+    margin-right: 36px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #17233D;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.4;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+
+img {
+    margin: 163px 85px 0 123px;
+    width: 595.18px;
+    height: 500px;
+
+
+}
+
+
+section {
+    display: inline-block;
+
+
+}
+
+h1 {
+    width: 493px;
+    margin-bottom: 47px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p {
+    margin-bottom: 55px;
+    width: 493px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+
+}
+
+.link-main {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+.link-main:hover { opacity: 0.8;}
+.link-main:active { opacity: 0.5;}
+
+
+/* Responsividade */
+@media screen and (max-width:900px) {
+
+    .wrapper {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-class :not(.button-header) {
+        display: none;
+    }
+
+    .header-class {
+        position: fixed;
+        margin: 0;
+        left: 70%;
+        top: 2%;
+    }
+
+    .button-header {
+        font-size: 12px;
+        line-height: 18px;
+        height: 31px;
+        width: 91px;
+    }
+
+    
+    img {
+        position: fixed;
+        max-width: 100%;
+        height: auto;
+        top: 56%;
+        margin: 0;
+        padding: 20px;
+
+    }
+
+    section {
+        position: fixed;
+        top: 15%;
+
+    }
+
+
+    h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        width: auto;
+        margin: 0 57px;
+        display: block;
+        
+
+
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        width: auto;
+        margin: 27px 44px;
+        display: block;
+
+
+    }
+
+    .link-main {
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        margin: 0 auto;
+        display: block;
+
+    }
+}

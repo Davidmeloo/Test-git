@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto-Cell</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="section-first">
+
+            <h1>Easy Shopping Via Mobile</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Donec lorem justo, sollicitudin vel ultricies sed,
+                eleifend nec metus. Etiam vitae pellentesque dolor. </p>
+
+            <button>Get Started</button>
+
+        </section>
+
+
+        <section class="section-second">
+
+            <header class="links-container">
+                <a class="links">Home</a>
+                <a class="links" id="link-work">Work</a>
+                <a class="links">About</a>
+                <a class="links">Contact</a>
+            </header>
+
+            <img src="./Illustration-3-3.png">
+
+        </section>
+
+    </div>
+</body>
+
+<style>
+    * {
+        font-family: "Oswald";
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .links {
+        margin-right: 41px;
+    }
+
+    .links-container {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 41px;
+        color: #5D5D7D;
+        margin-top: 23px;
+        margin-left: 23px;
+        cursor: pointer;
+    }
+
+    a:hover {
+        opacity: 0.8;
+    }
+
+    a:active {
+        opacity: 0.5;
+    }
+
+    a:nth-child(2) {
+        opacity: 0.4;
+    }
+
+
+
+    h1 {
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 80px;
+        color: #5D5D7D;
+        width: 368px;
+        margin-top: 400px;
+
+    }
+
+    p {
+
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 48px;
+        opacity: 0.6;
+        color: #5D5D7D;
+        width: 540px;
+        margin-top: 15px;
+    }
+
+    button {
+
+        width: 269px;
+        height: 62px;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        background: #9499EA;
+        box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+        border-radius: 50px;
+        border: none;
+        margin-top: 15px;
+        cursor: pointer;
+
+    }
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+    button:active {
+        opacity: 0.5;
+    }
+
+    img {
+        top: 20%;
+        position: relative;
+        right: 130px;
+        
+    }
+
+    .section-first {
+        display: inline-block;
+        width: 60%;
+        margin-left: 136px;
+
+    }
+
+    .section-second {
+        display: inline-block;
+        background: rgba(93, 93, 125, 0.16);
+        height: 100vh;
+        width: 40%;
+        position: absolute;
+    }
+
+    .wrapper {
+        width: 100vw;
+        height: 100vh;
+
+    }
+
+    @media screen and (max-width:900px) {
+
+
+        .section-first {
+            height: 50%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .section-second {
+            display: block;
+            position: static;
+            width: 100%;
+            height: auto;
+            padding: 40px;
+        }
+
+        img {
+            position:static;
+            max-width: 90%;
+        }
+
+        .links-container {
+            display: none;
+        }
+
+        h1 {
+            font-size: 36px;
+            line-height: 52px;
+            text-align: center;
+            margin: 58px 50px 0 50px;
+            width: auto;
+        }
+
+        p {
+            width: auto ;
+            margin: 15px 40px;
+            text-align: center;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        button{ 
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+
+    @media screen and (max-width:330px){
+/* exemplo para o iphone menor 5 */
+        .section-first {
+            height: 70%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+    }
+</style>
+
+
+</html>
